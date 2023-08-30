@@ -1,0 +1,38 @@
+#logo{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    padding: 0rem 2rem;
+    font-weight: 10px;
+    padding-left: 5rem;
+    color: black;
+}
+main{
+   background-color: black;
+   color: white;
+}
+p{
+  font-family: 'Abel', sans-serif;
+}
+#roo{
+  background-color: black;
+}
+h1{
+    font-family: 'Abel', sans-serif;  
+}
+h3{
+    font-family: 'Abel', sans-serif;
+}
+.row{
+  padding: 3rem 1rem;
+}
+footer{
+  background-color: white;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+li:hover{
+  background-color: rgb(232, 230, 230);
+  border-radius: 10pc;
+  transition: 1s;
+}
