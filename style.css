@@ -36,3 +36,14 @@ li:hover{
   border-radius: 10pc;
   transition: 1s;
 }
+.obi{
+  font-size: 14px;
+  width: 500px;
+  height: 411px;
+}
+h2{
+  font-family: 'Abel', sans-serif;
+}
+article{
+  font-family: 'Abel', sans-serif;
+}
