@@ -12,6 +12,7 @@ main{
 }
 p{
   font-family: 'Abel', sans-serif;
+  color: black;
 }
 #roo{
   background-color: black;
@@ -22,6 +23,14 @@ h1{
 h3{
     font-family: 'Abel', sans-serif;
 }
+h4{
+  font-family: 'Abel', sans-serif;
+  color: white;
+}
+h5{
+  font-family: 'Abel', sans-serif;
+  color: black;
+}
 .row{
   padding: 3rem 1rem;
 }
@@ -31,19 +40,38 @@ footer{
   text-align: center;
   font-size: 25px;
 }
-li:hover{
+#lid:hover{
   background-color: rgb(232, 230, 230);
   border-radius: 10pc;
   transition: 1s;
 }
 .obi{
   font-size: 14px;
-  width: 500px;
-  height: 411px;
+  width: 477px;
+  height: 422px;
+  border-radius: 5px;
 }
 h2{
   font-family: 'Abel', sans-serif;
 }
 article{
   font-family: 'Abel', sans-serif;
+}
+.headm{
+  text-align: center;
+  padding-top: 3rem;
+}
+.col1{
+  display: flex;
+  justify-content: center;
+}
+.col2{
+  display: flex;
+  justify-content: center;
+}
+.pro{
+  color: white;
+}
+body{
+  margin: 1%;
 }
