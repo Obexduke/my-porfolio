@@ -21,7 +21,7 @@
     </head>
     <style>
         .container{
-            height: 90vh;
+            height: 80vh;
         }
         .container >h4{
             margin-top: 1rem;
@@ -51,6 +51,29 @@
         input{
             padding: 10px;
             border-color: rgb(110, 109, 109);
+        }
+        #first_col{
+            padding: 1rem;
+            justify-content: center;
+        }
+        #first_col >p >i{
+            padding: 10px;
+        }
+        #second_col{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        #second_col> form> input{
+           width: 20rem;
+           border-radius: 8px;
+           border-style: none;
+           padding: 0 1rem;
+        }
+        #second_col> form> textarea{
+           width: 20rem;
+           border-radius: 8px;
+           padding: 0 1rem;
         }
 
     </style>
@@ -97,7 +120,7 @@
                 <h4>Contact Me</h4>
                 <div class="row">
                    
-                    <div class="col" >
+                    <div id="first_col" class="col" >
                         <p class="jos"><i class="bi bi-house-fill " ></i>  No.27 Danfodio street,UNN.Nsukka</p>
 
                         <p class="jos"><i class="bi bi-telephone-fill"></i>  090388196666</p>
@@ -112,7 +135,7 @@
                         </div>
                     </div>
 
-                    <div class="col col2">
+                    <div id="second_col" class="col col2">
                         <form action="" class="form">
                             <label for="">Name</label><br>
                             <input type="text" id="username" name="name" required minlength="3" maxlength="20" placeholder=" Tom.Placeholder">
