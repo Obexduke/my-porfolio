@@ -69,9 +69,46 @@ article{
   display: flex;
   justify-content: center;
 }
+.col3{
+  display: flex;
+  justify-content: center;
+}
 .pro{
   color: white;
 }
 body{
   margin: 1%;
+}
+#project_row{
+  padding: 3rem 1rem;
+  background-color: black;
+}
+#project_row > .col >.card{
+  background-color: white;
+  border-radius: 6px;
+}
+.jos{
+  color: white;
+}
+a{
+  font-family: 'Abel', sans-serif;
+}
+input{
+  padding:0.5rem 0rem;
+  width: 300px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: rgb(97, 93, 93);
+}
+.col2{
+  text-align: center;
+  justify-content: center;
+}
+::placeholder{
+  font-family: 'Abel', sans-serif;
+}
+textarea{
+  border-radius: 10px;
+  border-color: rgb(110, 109, 109);
+  padding: 10px;
 }

@@ -4,60 +4,138 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact_me</title>
+
          <!-- This is a Google font link -->
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
          <!-- Google fonts ends here -->
+
+         <!-- This is Bootstrap-css link -->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-         <link rel="stylesheet" href="style.css">
+         <!-- This is Bootstrap icons link -->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
- 
+         <!-- Bootstrap end here -->
+         <link rel="stylesheet" href="style.css">
     </head>
+    <style>
+        .container{
+            height: 90vh;
+        }
+        .container >h4{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        #hey{
+            border-radius: 10px;
+            border-color: white;
+            border-width: 3px;
+        }
+        
+        button{
+            background-color: black;
+            color: white;
+            border-color: white ;
+            width: 70px;
+            border-radius: 10pc;
+            transition: 2s;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            width: 70px;
+            border-radius: 10pc;
+            border-color: rgb(110, 109, 109);
+        }
+        input{
+            padding: 10px;
+            border-color: rgb(110, 109, 109);
+        }
+
+    </style>
     <body id="roo">
         <header>
             <!--Start Navbar-->
 
-            
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <h1><a id='logo' "navbar-brand" href="#">Obex</a></h1>
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
-          </button>
+                </button>
  
-                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                     <ul class="navbar-nav" id="lid">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav" id="lid">
                      
-                         <li class="nav-item">
+                        <li class="nav-item">
                              <a class="nav-link text-dark mynav" href="index.html"><i class="bi bi-house-fill"></i> Home</a>
-                         </li>
+                        </li>
  
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark mynav" href="about.html"><i class="bi bi-person-fill"></i>About_me</a>
                         </li>
  
                         <li class="nav-item">
-                         <a class="nav-link text-dark mynav" href="projects.html"><i class="bi bi-file-earmark-code-fill"></i> My_Projects</a>
+                            <a class="nav-link text-dark mynav" href="projects.html"><i class="bi bi-file-earmark-code-fill"></i> My_Projects</a>
                         </li>
  
-                         <li class="nav-item">
+                        <li class="nav-item">
                              <a class="nav-link text-dark mynav" href="contact.html"><i class="bi bi-telephone-fill"></i> Contact me</a>
-                         </li>
+                        </li>
  
-                     </ul>
+                    </ul>
  
-                 </div>
+                </div>
  
-             </nav>
+            </nav>
  
-         <!--End Navbar-->
+          <!--End Navbar-->
         </header>
 
-        <main>
+        <main id="hey">
+            <div class="container">
+                <h4>Contact Me</h4>
+                <div class="row">
+                   
+                    <div class="col" >
+                        <p class="jos"><i class="bi bi-house-fill " ></i>  No.27 Danfodio street,UNN.Nsukka</p>
 
+                        <p class="jos"><i class="bi bi-telephone-fill"></i>  090388196666</p>
+
+                        <p class="jos"><i class="bi bi-envelope-fill"></i>  obinnaugwuishiwu@gmail.com</p>
+
+                        <div>
+                            <a href=""class="myicon"><i class="bi bi-facebook text-primary">@Obinna</i></a><br><br>
+                            <a href=""class="myicon"><i class="bi bi-youtube text-danger">@Obinna</i></a><br><br>
+                            <a href="" class="myicon"><i class="bi bi-twitter text-info">@Obinna</i></a><br><br>
+                            <a href="" class="myicon"><i class="bi bi-pinterest text-danger">@Obinna</i></a><br><br>
+                        </div>
+                    </div>
+
+                    <div class="col col2">
+                        <form action="" class="form">
+                            <label for="">Name</label><br>
+                            <input type="text" id="username" name="name" required minlength="3" maxlength="20" placeholder=" Tom.Placeholder">
+                            <br><br>
+                           
+                            <label for="">E-mail</label><br>
+                            <input type="email" id="E-mail" name="E-mail" required placeholder=" Youremail@gmail.com">
+                            <br><br>
+
+                            <label for="message">Message</label><br>
+                            <textarea name="" id="" cols="35" rows="3" placeholder="Message"></textarea><br><br>
+                            
+                            <div >
+                                <button  type="submit">Send</button>
+                            </div>
+                            
+        
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer>
+        <footer id="con">
             <p><small>&copy;</small>Designed by Obex studios</p>
         </footer>
     </body>
